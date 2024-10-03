@@ -1,4 +1,4 @@
 url: https://github.com/vjcitn/CDNMmodgen
 template:
-  bootswatch: flatly
+  bootstrap: 5
 
