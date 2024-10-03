@@ -1,0 +1,35 @@
+---
+title: "Computing strategies for modern genomics: 2025 edition"
+title-short: "CDNM workshop sketch"
+vignette: >
+  %\VignetteIndexEntry{Computing strategies for modern genomics: 2025 edition}
+  %\VignetteEngine{quarto::html}
+  %\VignetteEncoding{UTF-8}
+format: html
+toc: true
+editor_options: 
+  chunk_output_type: console
+---
+
+# Introduction
+
+Computational genomic data science is a rapidly changing field.  Biotechnology
+and information technology evolve independently.  It is hard to stay on
+top of both.  The CDNMmodgen package aims to organize a series of discussions
+on important concepts that help control complexity of data management and
+analysis in modern genomics.  Topics to be considered are
+
+- self-describing data structures such as SeuratObject, AnnData, SummarizedExperiment,
+MultiAssayExperiment
+- containerization in the sense of "Docker"
+- interactive environments for data exploration
+- mixed in- and out-of-memory data representations
+- resource consumption measurement
+- cloud computing strategies: cloud storage, scalable compute
+- language-agnostic methods or principles
+
+This package and discussion series is intended to be a collaborative effort.
+Please file issues at the associated [github repo](https://github.com/vjcitn/CDNMmodgen/issues).
+
+The series is also intended to address live problems arising in CDNM.  Please
+feel free to propose example problems in the issue tracker.
